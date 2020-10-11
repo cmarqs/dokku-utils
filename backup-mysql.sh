@@ -6,7 +6,7 @@
 ###
 
 ### Constants
-path=$"/mnt/storage_nyc_1/dokku-mysql-backups/"
+path=$"/storage/dokku-mysql-backups/"
 clear
 
 while [ "$1" != "" ]; do
