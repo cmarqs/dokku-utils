@@ -21,7 +21,7 @@ else
     echo "------ $(date +"%T") ------"
     echo "Iniciando cópia do diretório \"$dir\""
 
-    cmd=$"rsync -aP --ignore-existing $remote_path/$dir $local_path/"
+    cmd=$"rsync -aP --ignore-existing $remote_path/$dir $local_path/$dir"
 
     echo $cmd
     eval $cmd
